@@ -187,13 +187,13 @@
     <distributionManagement>
     <repository>
         <id>central</id>
-        <name>artifactory-dal10-01-node-07.swg-devops.com-releases</name>
-        <url>https://na.artifactory.swg-devops.com:443/artifactory/gbs-bat-eutpd-maven-local</url>
+        <name>mil-poc-devOps.BAT.cloud-releases</name>
+        <url>http://159.122.149.247:8081/artifactory/libs-release</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>artifactory-dal10-01-node-07.swg-devops.com-snapshots</name>
-        <url>https://na.artifactory.swg-devops.com:443/artifactory/gbs-bat-eutpd-maven-local</url>
+        <name>mil-poc-devOps.BAT.cloud-snapshots</name>
+        <url>http://159.122.149.247:8081/artifactory/libs-release</url>
     </snapshotRepository>
     </distributionManagement>
 </project>
